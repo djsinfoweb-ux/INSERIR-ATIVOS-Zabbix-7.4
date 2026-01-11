@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Não versionar planilhas com dados reais
+zabbix_hosts.xlsx
+# Exceto o template
+!zabbix_hosts_template_v2.xlsx
+
+# Relatórios gerados
+zabbix_import_report_*.csv
+
+# Logs
+*.log
+
+# Configurações locais (se houver)
+config_local.py
+.env

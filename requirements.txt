@@ -1,0 +1,8 @@
+# Zabbix Host Import - Requirements
+# Python 3.7+
+
+# HTTP requests library
+requests>=2.28.0
+
+# Excel file handling
+openpyxl>=3.0.10
